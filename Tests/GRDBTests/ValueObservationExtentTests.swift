@@ -3,7 +3,7 @@ import XCTest
     import GRDBCustomSQLite
 #else
     #if SWIFT_PACKAGE
-        import CSQLite
+        import CSQLite2
     #else
         import SQLite3
     #endif

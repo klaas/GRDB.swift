@@ -1,5 +1,5 @@
 #if SWIFT_PACKAGE
-import CSQLite
+import CSQLite2
 #elseif GRDBCIPHER
 import SQLCipher
 #elseif !GRDBCUSTOMSQLITE && !GRDBCIPHER
